@@ -142,16 +142,53 @@
 </div>
 
 <br><br><br><br>
-<div class="t-tildalabel" id="tildacopy" data-tilda-sign="6489859#35527368">
-  <a href="https://www.instagram.com/shakyrtu_studio_online/" class="t-tildalabel__link" target="_blank">
-    <div class="t-tildalabel__wrapper">
-      <div class="t-tildalabel__txtleft">Закажите</div>
-      <div class="t-tildalabel__wrapimg">
-        <img src="PikPng.com_instagram-logo-png_1124492.png" class="t-tildalabel__img" fetchpriority="low" alt="Instagram">
-      </div>
-      <div class="t-tildalabel__txtright">у нас!</div>
-    </div>
+<div class="insta-banner">
+  <a href="https://www.instagram.com/shakyrtu_studio_online/" target="_blank">
+    <span>Закажите</span>
+    <img src="PikPng.com_instagram-logo-png_1124492.png" alt="Instagram">
+    <span>у нас!</span>
   </a>
 </div>
+
+<style>
+  .insta-banner {
+    width: 100%;
+    background-color: #3e1f0d;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 1000;
+  }
+
+  .insta-banner a {
+    color: white;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 40px;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .insta-banner img {
+    height: 20px;
+    width: auto;
+    filter: brightness(0) invert(1);
+  }
+
+  @media (max-width: 600px) {
+    .insta-banner a {
+      font-size: 14px;
+    }
+
+    .insta-banner img {
+      height: 18px;
+    }
+  }
+</style>
+
 </body>
 </html>
