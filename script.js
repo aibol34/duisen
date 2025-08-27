@@ -27,7 +27,7 @@ const m = document.getElementById('minutes');
 const s = document.getElementById('seconds');
 
 function updateCountdown() {
-  const target = new Date("2025-09-20T19:00:00+05:00");
+  const target = new Date("2025-09-21T19:00:00+05:00");
   const now = new Date();
   const diff = target - now;
 
